@@ -1,3 +1,5 @@
-##aquiempezamos
-print("ola chavales")
-print("chingao")
+##EmilioParte/2-multiplicacionDeNNumeros
+numpy.prod()
+import numpy
+
+
