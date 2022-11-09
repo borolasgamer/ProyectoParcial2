@@ -1,5 +1,7 @@
 ##EmilioParte/2-multiplicacionDeNNumeros
-numpy.prod()
-import numpy
-
+import math
+lista.sort()
+print("Tamaño de la lista: ", len(lista))
+print("Lista ordenada ")
+print(lista)
 
