@@ -1,5 +1,6 @@
 #menu
 from Factoriales import factoriales
+from Promedio import promedio
 from math import factorial
 
 menuprincipal = int(input("Menu Principal: \n 1-Suma de N numeros \n 2-Producto entre N numeros \n 3-Division entre 2 numeros \n 4-calcular el factorial de 1 numero \n 5-Ver tablas de multiplicar \n 6-Calcular el cuadrado y el cubo de 1 numero \n 7-Obtener el promedio de una serie de numeros \n 8-Obtener el valor maximo y minimo de una de una serie de numeros \n 9-Escriba 0 para salir \n"))
@@ -47,7 +48,7 @@ elif menuprincipal ==6:
 
 
 elif menuprincipal ==7:
-            print("Obtener el promedio de una serie de numeros")
+            promedio()
 
 
 elif menuprincipal ==8:
