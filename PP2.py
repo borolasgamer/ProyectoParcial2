@@ -5,16 +5,23 @@ from math import factorial
 menuprincipal = int(input("Menu Principal: \n 1-Suma de N numeros \n 2-Producto entre N numeros \n 3-Division entre 2 numeros \n 4-calcular el factorial de 1 numero \n 5-Ver tablas de multiplicar \n 6-Calcular el cuadrado y el cubo de 1 numero \n 7-Obtener el promedio de una serie de numeros \n 8-Obtener el valor maximo y minimo de una de una serie de numeros \n 9-Escriba 0 para salir \n"))
 
 if menuprincipal ==1:
-            print("suma de numeros")
-
+    suma=0
+    contador=1
+    valor = int(input('Ingrese cuantos numeros desea sumar: '))
+    while contador <= valor: 
+        num = int(input('Ingrese el valor:' ))
+        suma+=num
+        contador=contador+1
+    print("La suma total de los numeros es:", suma)
 
 elif menuprincipal ==2:
             print("multiplicacion de numeros")
 
 
 elif menuprincipal ==3:
-            print("Division de numeros")
-
+    num1 = int(input('Ingrese el primer numero: '))
+    num2 = int(input('Ingrese el segundo numero: '))
+    print("La division de", num1, "y", num2, "es:", num1/num2)
 
 elif menuprincipal ==4:
         factoriales()
