@@ -7,5 +7,7 @@ def min_max():
             break
         else:
             lista.append(int(numero))
+    print("valores introducidos")
+    print(lista)
     print("El numero maximo es: ", max(lista))
     print("El numero minimo es: ", min(lista))

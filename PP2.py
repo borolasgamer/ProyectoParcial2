@@ -1,6 +1,7 @@
 #menu
 from Factoriales import factoriales
 from Promedio import promedio
+from MinMaxValor import min_max
 from math import factorial
 
 menuprincipal = int(input("Menu Principal: \n 1-Suma de N numeros \n 2-Producto entre N numeros \n 3-Division entre 2 numeros \n 4-calcular el factorial de 1 numero \n 5-Ver tablas de multiplicar \n 6-Calcular el cuadrado y el cubo de 1 numero \n 7-Obtener el promedio de una serie de numeros \n 8-Obtener el valor maximo y minimo de una de una serie de numeros \n 9-Escriba 0 para salir \n"))
@@ -43,10 +44,14 @@ elif menuprincipal ==5:
                 elif respuesta == "si":
                     print("Continuando...")
 elif menuprincipal ==6:
-            print("Calculo del cuadrado y cubo")
+            valor= int(input('Ingrese el valor a elevar:'))
+            cuadrado= valor*valor
+            cubo= cuadrado*valor
+            print('el cuadrado es:', cuadrado)
+            print('el cubo es:', cubo)
 elif menuprincipal ==7:
             promedio()
 elif menuprincipal ==8:
-            print("Valor maximo y minimo de una lista")
+            min_max()
 elif menuprincipal ==0:
             print("Saliendo...")
